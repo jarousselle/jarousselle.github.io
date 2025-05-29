@@ -1,5 +1,5 @@
 ---
-title: "jarousselle.github.io"
+title: "Jess Rousselle"
 ---
 
 This is a Quarto website.
