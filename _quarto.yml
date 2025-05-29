@@ -3,18 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "jarousselle.github.io"
+  title: "Jess Rousselle"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - test.qmd
+
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 
