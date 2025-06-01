@@ -7,3 +7,7 @@ about:
   image-shape: round
   image-width: 17em
 ---
+
+# About Me
+
+I'm a second year Environmental Studies (B.S.) major at University of California, Santa Barbara. Next year I will be serving as project chair on the Environmental Justice Alliance board. 
