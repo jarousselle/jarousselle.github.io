@@ -6,6 +6,14 @@ about:
   template: jolla
   image-shape: round
   image-width: 17em
+  links: 
+    - icon: github
+      text: GitHub
+      href: https://github.com/jarousselle
+      target: _blank
+    - icon: envelope
+      text: Email
+      href: mailto:jarousselle@ucsb.edu
 ---
 
 # About Me
