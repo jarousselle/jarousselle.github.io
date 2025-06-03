@@ -10,7 +10,8 @@ website:
         text: Home
       - about.qmd
       - Project.qmd
-      - free.qmd
+      - href: free.qmd
+        text: Favorite Media
       - resume.qmd
 
 
