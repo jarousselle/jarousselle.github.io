@@ -2,7 +2,17 @@
 title: "About"
 ---
 
+# Where I'm From
 
+I'm from Orange County, CA
+
+# Pets
+
+I have one dog named Jefferson!
+
+# Hobbies
+
+In my free time I love to listen to music, craft, and read.
 
 
 
