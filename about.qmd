@@ -1,18 +1,21 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
 # Where I'm From
 
-I'm from Orange County, CA
+I'm from Orange County, CA. I have lived in this area for almost my entire life. Some of my favorite things to do in the area are going to Laguna Beach and shopping at the Irvine Spectrum.
+
+![Laguna Beach](IMG_0210.jpeg){fig-align="left" width="535"}
 
 # Pets
 
-I have one dog named Jefferson!
+I have one dog named Jefferson! We rescued him when I was in fourth grade. We think that he is a Tibetan Terrier and Lhasa Apso mix.
+
+![Jefferson](IMG_8803.jpeg){fig-align="left" width="535"}
 
 # Hobbies
 
-In my free time I love to listen to music, craft, and read.
+In my free time I love to listen to music, craft, and read. Over the summer I really want to get more into upcycling clothes and also learn to play an instrument.
 
-
-
+![Here are some pants I upcycled!](IMG_2935.jpeg){fig-align="left" width="535"}
