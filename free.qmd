@@ -5,6 +5,17 @@ toc: true
 
 Recently I've found myself spending way too much time just mindlessly scrolling on TikTok and it's time for a change. There are so many other forms of media out there that are a little more substantial in content. So here is a list of some of my favorites to serve as a reminder of the options available outside of TikTok.
 
+```{r}
+library(tidyverse)
+library(plotly) # JS plots!
+library(DT) # JS tables!
+library(leaflet) # JS maps!
+library(leaflet.extras) # leaflet add-ons!
+
+
+```
+
+
 # Music
 
 Music is my all time favorite type of media to consume. I love listening to new music and exploring new genres, as well as listening to my favorites on repeat. Last year I listened to 121,952 minutes of music!

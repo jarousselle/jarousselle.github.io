@@ -1,4 +1,16 @@
-date,total,tiktok,messages,music,instagram
-May 11-17,25.58,13.88,2.05,0.72,1.28
-May 18-24,25.77,12.95,0.72,1.3,1.07
-May 25-31,24.5,5.57,0.95,4.63,1.93
+date,type,time
+May 11-17,tiktok,13.88
+May 11-17,messages,2.05
+May 11-17,music,0.72
+May 11-17,instagram,1.28
+May 11-17,other,7.65
+May 18-24,tiktok,12.95
+May 18-24,messages,0.72
+May 18-24,music,1.3
+May 18-24,instagram,1.07
+May 18-24,other,9.73
+May 25-31,tiktok,5.57
+May 25-31,messages,0.95
+May 25-31,music,4.63
+May 25-31,instagram,1.93
+May 25-31,other,11.42
