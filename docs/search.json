@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Jess Rousselle",
     "section": "",
-    "text": "About Me\nHello, my name is Jess Rousselle! Currently I am a second year Environmental Studies (B.S.) major at University of California, Santa Barbara. I love learning about the environment and am always looking for new ways to expand my knowledge! This summer I will be studying abroad in Sicily, Italy and learning all about the effects of climate change on the Mediterranean."
+    "text": "Hello, my name is Jess Rousselle! Currently I am a second year Environmental Studies (B.S.) major at University of California, Santa Barbara. I love learning about the environment and am always looking for new ways to expand my knowledge! This summer I will be studying abroad in Sicily, Italy and learning all about the effects of climate change on the Mediterranean."
   },
   {
     "objectID": "Untitled.html",
@@ -23,9 +23,9 @@
   {
     "objectID": "Project.html",
     "href": "Project.html",
-    "title": "Project",
+    "title": "Projects",
     "section": "",
-    "text": "hello"
+    "text": "GIS: Grizzly Bear Reintroduction in California\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 3, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "free.html",
@@ -40,5 +40,19 @@
     "title": "Resume",
     "section": "",
     "text": "resume"
+  },
+  {
+    "objectID": "GIS.html",
+    "href": "GIS.html",
+    "title": "Projects",
+    "section": "",
+    "text": "GIS: Grizzly Bear Reintroduction in California\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 3, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/gis/index.html",
+    "href": "posts/gis/index.html",
+    "title": "GIS: Grizzly Bear Reintroduction in California",
+    "section": "",
+    "text": "Description\nHere is the final project my group created for a class called GIS For Envrionmental Applications. We used ArcGIS Pro to complete this project over the course of a few weeks. The final map illustrates the suitability levels throughout California for the reintroduction of Grizzly Bears.\n\n\nFinal Project"
   }
 ]

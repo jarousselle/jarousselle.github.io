@@ -1,0 +1,14 @@
+---
+title: "GIS: Grizzly Bear Reintroduction in California"
+image: images/grizzly.jpeg
+author: "Jess Rousselle"
+date: 2025-06-03
+---
+# Description
+Here is the final project my group created for a class called GIS For Envrionmental Applications. We used ArcGIS Pro to complete this project over the course of a few weeks. The final map illustrates the suitability levels throughout California for the reintroduction of Grizzly Bears.
+
+# Final Project
+<iframe src="https://storymaps.arcgis.com/stories/5faf705556174a63a4c84a16f78f1bb6" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation">
+
+</iframe>
+
