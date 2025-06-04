@@ -1,20 +1,49 @@
 ---
 title: "Favorite Media"
 toc: true
+format:
+  html:
+    code-fold: true
+    code-summary: "Code"
 ---
 
 Recently I've found myself spending way too much time just mindlessly scrolling on TikTok and it's time for a change. There are so many other forms of media out there that are a little more substantial in content. So here is a list of some of my favorites to serve as a reminder of the options available outside of TikTok.
 
+# Screentime
+
+Here's a breakdown of my recent screentime the past few weeks. Clearly I have spent way too much time on my phone, especially TikTok.
+
 ```{r}
+#| message: false
+#| warning: false
+
 library(tidyverse)
 library(plotly) # JS plots!
 library(DT) # JS tables!
 library(leaflet) # JS maps!
 library(leaflet.extras) # leaflet add-ons!
+screentime <- read.csv("screentime.csv")
+names(screentime) <- c("Date", "App", "Time")
 
+#creating a bar plot of my screentime divided by category
+fig <- ggplot(screentime, aes(fill=App, y=Time, x=Date)) + 
+          geom_bar(position="dodge", stat="identity") +
+#setting custom colots 
+   scale_fill_manual(values=c("pink",
+                             "green",
+                             "#f94c57",
+                             "grey",
+                             "#00f2ea")) +
+#changing labels
+    labs(title = "Recent Screentime",
+       x = "Date (year 2025)",
+       y = "Time (hours)") +
+#changing theme
+    theme_light()
+#making the bar graph interactive
+ggplotly(fig)
 
 ```
-
 
 # Music
 
@@ -44,4 +73,4 @@ Lately I haven't been reading as much as I would like to, but I am trying to wor
 
 I haven't ever been a huge fan of movies, but I am starting to get more into them. I feel like there are so many classic films that I have not seen yet. Some of current favorites are *MaXXXine, I Used To Be Funny, Eternal Sunshine of the Spotless Mind, Fantastic Mr. Fox,* and *The Edge of Seventeen*.
 
-![](images/Screenshot 2025-06-02 at 8.21.37 PM.png)
+![](images/Screenshot%202025-06-02%20at%208.21.37%20PM.png)
