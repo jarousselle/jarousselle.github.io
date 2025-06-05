@@ -20,7 +20,7 @@ format:
     theme: 
       - flatly
       - styles.scss
-    mainfont: Teachers
+    mainfont: Yrsa
     toc: true
     page-layout: full
 
