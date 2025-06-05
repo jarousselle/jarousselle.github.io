@@ -17,11 +17,14 @@ Here's a breakdown of my recent screentime the past few weeks. Clearly I have sp
 #| message: false
 #| warning: false
 
+# loading in packages
 library(tidyverse)
 library(plotly) # JS plots!
 library(DT) # JS tables!
 library(leaflet) # JS maps!
 library(leaflet.extras) # leaflet add-ons!
+
+# storing data as screentime and adjusting names
 screentime <- read.csv("screentime.csv")
 names(screentime) <- c("Date", "App", "Time")
 

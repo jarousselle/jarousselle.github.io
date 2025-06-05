@@ -1,0 +1,50 @@
+---
+title: "ENVS 193DS Stats Project"
+image: /draft.jpeg
+author: "Jess Rousselle"
+date: 2025-06-04
+format:
+  html:
+    code-fold: true
+    code-summary: "Code"
+---
+
+# Background
+
+Over the course of Spring quarter 2025, I have been collecting data to determine if the type of shoe I wear impacts my walking pace. To do this, I recorded my walks on my Apple Watch and also wrote down the type of shoe I was wearing. I then compiled all of this data into a spreadsheet so that I can analyze the data in RStudio and create an affective visualization.
+
+# Progress
+
+### Initial Visualization
+Here is an initial visualization of the data. From the graph, it appears that I have a slower walking pace when wearing Doc Martens than I do when wearing sneakers. This is expected because Doc Martens are less comfortable shoes. The boxplot below compares some of the central tendencies of the data like median, interquartile range, max, and min.
+
+```{r}
+#| message: false
+#| warning: false
+setwd('/Users/jessrousselle/Desktop/github/jarousselle.github.io')
+library(tidyverse)
+library(plotly)
+shoe <- read.csv("posts/stats/shoe_data.csv")
+plot <- ggplot(shoe, aes(x = Type_of_Shoe,
+                 y = Pace_min,
+                 fill = Type_of_Shoe)) +
+  scale_fill_manual(values=c("#B2A5A0", "#2E69AC")) +
+         geom_boxplot() +
+         geom_jitter(width = 0.2,
+                     height = 0) +
+  labs(title = "Effects of Shoe Type on Walking Pace",
+       x = "Type of Shoe",
+       y = "Walking Pace (min)") +
+  theme_linedraw()
+ggplotly(plot)
+```
+
+### Affective Visualization Draft
+
+From this data, I am creating an affective visualization of shoe type and walking pace. I am doing this by drawing on my ipad and creating a plot. The x-axis shows walking pace, with the faster pace being closer to the finish line. Each shoe represents a data point for walking pace and the type of shoe I was wearing when that data was recorded. This is still a work in progress, but here is my draft.
+
+![](/draft.jpeg)
+
+# Final Project
+
+Coming soon!

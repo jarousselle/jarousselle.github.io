@@ -2,12 +2,16 @@
   {
     "listing": "/Project.html",
     "items": [
+      "/posts/YCT/index.html",
+      "/posts/stats/index.html",
       "/posts/gis/index.html"
     ]
   },
   {
     "listing": "/GIS.html",
     "items": [
+      "/posts/YCT/index.html",
+      "/posts/stats/index.html",
       "/posts/gis/index.html"
     ]
   }
