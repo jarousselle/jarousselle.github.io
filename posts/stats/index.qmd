@@ -16,26 +16,37 @@ Over the course of Spring quarter 2025, I have been collecting data to determine
 # Progress
 
 ### Initial Visualization
-Here is an initial visualization of the data. From the graph, it appears that I have a slower walking pace when wearing Doc Martens than I do when wearing sneakers. This is expected because Doc Martens are less comfortable shoes. The boxplot below compares some of the central tendencies of the data like median, interquartile range, max, and min.
+Here is an initial visualization of the data to see if shoe type impacts my walking pace. From the graph, it appears that I have a slower walking pace when wearing Doc Martens than I do when wearing sneakers. This is expected because Doc Martens are less comfortable shoes. The boxplot below compares some of the central tendencies of the data like median, interquartile range, max, and min.
 
 ```{r}
 #| message: false
 #| warning: false
+# reading in packages and setting working directory
 setwd('/Users/jessrousselle/Desktop/github/jarousselle.github.io')
 library(tidyverse)
 library(plotly)
+
+# reading in data
 shoe <- read.csv("posts/stats/shoe_data.csv")
+
+# creating a plot
 plot <- ggplot(shoe, aes(x = Type_of_Shoe,
                  y = Pace_min,
                  fill = Type_of_Shoe)) +
+# setting custom colors
   scale_fill_manual(values=c("#B2A5A0", "#2E69AC")) +
+# creating boxplot
          geom_boxplot() +
+# jittering points horizontally, but not vertically
          geom_jitter(width = 0.2,
                      height = 0) +
+# changing labels
   labs(title = "Effects of Shoe Type on Walking Pace",
        x = "Type of Shoe",
        y = "Walking Pace (min)") +
+# changing theme
   theme_linedraw()
+# making plot interactive
 ggplotly(plot)
 ```
 

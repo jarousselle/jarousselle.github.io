@@ -15,11 +15,12 @@ website:
         text: Favorite Media
       - resume.qmd
 
-
 format:
   html:
-    theme: flatly
-    css: styles.css
+    theme: 
+      - flatly
+      - styles.scss
+    mainfont: Teachers
     toc: true
     page-layout: full
 
