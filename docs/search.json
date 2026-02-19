@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Jess Rousselle",
     "section": "",
-    "text": "Hello, my name is Jess Rousselle! Currently I am a second year Environmental Studies (B.S.) major at University of California, Santa Barbara. I love learning about the environment and am always looking for new ways to expand my knowledge! This summer I will be studying abroad in Sicily, Italy and learning all about the effects of climate change on the Mediterranean."
+    "text": "Hello, my name is Jess Rousselle! Currently I am an Environmental Studies (B.S.) major at the University of California, Santa Barbara, expecting to graduate in June 2026. I love learning about the environment and am always looking for new ways to expand my knowledge!\nIn order to create this website, I used RStudio and GitHub."
   },
   {
     "objectID": "Untitled.html",
@@ -25,7 +25,7 @@
     "href": "Project.html",
     "title": "Projects",
     "section": "",
-    "text": "YCT Habitat Restoration\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nENVS 193DS Stats Project\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS: Grizzly Bear Reintroduction in California\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 3, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "YCT Habitat Restoration\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nENVS 193DS Stats Project\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS: Grizzly Bear Reintroduction in California\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 3, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "free.html",
@@ -46,7 +46,7 @@
     "href": "GIS.html",
     "title": "Projects",
     "section": "",
-    "text": "YCT Habitat Restoration\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nENVS 193DS Stats Project\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS: Grizzly Bear Reintroduction in California\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 3, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "YCT Habitat Restoration\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nENVS 193DS Stats Project\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS: Grizzly Bear Reintroduction in California\n\n\n\n\n\n\nJess Rousselle\n\n\nJun 3, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/gis/index.html",
@@ -60,13 +60,13 @@
     "href": "posts/YCT/index.html",
     "title": "YCT Habitat Restoration",
     "section": "",
-    "text": "Background\nFall quarter of 2024, I worked as an intern for Your Children’s Trees (YCT) to help plant hundreds of Eucalyptus trees. This was crucial for restoring a critical habitat for Monarch Butterflies. Although Eucaly[ptus trees are not native to the area, the butterflies have adapted to their presence and now rely on them for protection from the wind. However, after dealing with drought conditions, many of the trees died off, leaving the butterflies at Ellwood Mesa vulnerable. As Monarch populations have continued to decline, this project was an essential effort for protecting their habitat and maintaining the area.\n\n\nJob\nAs an intern, I worked to plant trees with other interns and helped lead and instruct groups of volunteers.\n\n\nPictures"
+    "text": "Background\nFall quarter of 2024, I worked as an intern for Your Children’s Trees (YCT) to help plant hundreds of Eucalyptus trees. This was crucial for restoring a critical habitat for Monarch Butterflies. Although Eucalyptus trees are not native to the area, the butterflies have adapted to their presence and now rely on them for protection from the wind. However, after dealing with drought conditions, many of the trees died off, leaving the butterflies at Ellwood Mesa vulnerable. As Monarch populations have continued to decline, this project was an essential effort for protecting their habitat and maintaining the area.\n\n\nJob\nAs an intern, I worked to plant trees with other interns and helped lead and instruct groups of volunteers.\n\n\nPictures"
   },
   {
     "objectID": "posts/stats/index.html",
     "href": "posts/stats/index.html",
     "title": "ENVS 193DS Stats Project",
     "section": "",
-    "text": "Background\nOver the course of Spring quarter 2025, I have been collecting data to determine if the type of shoe I wear impacts my walking pace. To do this, I recorded my walks on my Apple Watch and also wrote down the type of shoe I was wearing. I then compiled all of this data into a spreadsheet so that I can analyze the data in RStudio and create an affective visualization.\n\n\nProgress\n\nInitial Visualization\nHere is an initial visualization of the data to see if shoe type impacts my walking pace. From the graph, it appears that I have a slower walking pace when wearing Doc Martens than I do when wearing sneakers. This is expected because Doc Martens are less comfortable shoes. The boxplot below compares some of the central tendencies of the data like median, interquartile range, max, and min.\n\n\nCode\n# reading in packages and setting working directory\nsetwd('/Users/jessrousselle/Desktop/github/jarousselle.github.io')\nlibrary(tidyverse)\nlibrary(plotly)\n\n# reading in data\nshoe &lt;- read.csv(\"posts/stats/shoe_data.csv\")\n\n# creating a plot\nplot &lt;- ggplot(shoe, aes(x = Type_of_Shoe,\n                 y = Pace_min,\n                 fill = Type_of_Shoe)) +\n# setting custom colors\n  scale_fill_manual(values=c(\"#B2A5A0\", \"#2E69AC\")) +\n# creating boxplot\n         geom_boxplot() +\n# jittering points horizontally, but not vertically\n         geom_jitter(width = 0.2,\n                     height = 0) +\n# changing labels\n  labs(title = \"Effects of Shoe Type on Walking Pace\",\n       x = \"Type of Shoe\",\n       y = \"Walking Pace (min)\") +\n# changing theme\n  theme_linedraw()\n# making plot interactive\nggplotly(plot)\n\n\n\n\n\n\n\n\nAffective Visualization Draft\nFrom this data, I am creating an affective visualization of shoe type and walking pace. I am doing this by drawing on my ipad and creating a plot. The x-axis shows walking pace, with the faster pace being closer to the finish line. Each shoe represents a data point for walking pace and the type of shoe I was wearing when that data was recorded. This is still a work in progress, but here is my draft.\n\n\n\n\nFinal Project\nComing soon!"
+    "text": "Background\nOver the course of Spring quarter 2025, I have been collecting data to determine if the type of shoe I wear impacts my walking pace. To do this, I recorded my walks on my Apple Watch and also wrote down the type of shoe I was wearing. I then compiled all of this data into a spreadsheet so that I can analyze the data in RStudio and create an affective visualization.\n\n\nProgress\n\nInitial Visualization\nHere is an initial visualization of the data to see if shoe type impacts my walking pace. From the graph, it appears that I have a slower walking pace when wearing Doc Martens than I do when wearing sneakers. This is expected because Doc Martens are less comfortable shoes. The boxplot below compares some of the central tendencies of the data like median, interquartile range, max, and min.\n\n\nCode\n# reading in packages and setting working directory\nsetwd('/Users/jessrousselle/Desktop/github/jarousselle.github.io')\nlibrary(tidyverse)\nlibrary(plotly)\n\n# reading in data\nshoe &lt;- read.csv(\"posts/stats/shoe_data.csv\")\n\n# creating a plot\nplot &lt;- ggplot(shoe, aes(x = Type_of_Shoe,\n                 y = Pace_min,\n                 fill = Type_of_Shoe)) +\n# setting custom colors\n  scale_fill_manual(values=c(\"#B2A5A0\", \"#2E69AC\")) +\n# creating boxplot\n         geom_boxplot() +\n# jittering points horizontally, but not vertically\n         geom_jitter(width = 0.2,\n                     height = 0) +\n# changing labels\n  labs(title = \"Effects of Shoe Type on Walking Pace\",\n       x = \"Type of Shoe\",\n       y = \"Walking Pace (min)\") +\n# changing theme\n  theme_linedraw()\n# making plot interactive\nggplotly(plot)\n\n\n\n\n\n\n\n\nAffective Visualization\nFrom this data, I am creating an affective visualization of shoe type and walking pace. I am doing this by drawing on my ipad and creating a plot. The x-axis shows walking pace, with the faster pace being closer to the finish line. Each shoe represents a data point for walking pace and the type of shoe I was wearing when that data was recorded."
   }
 ]

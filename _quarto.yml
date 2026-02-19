@@ -8,12 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About Me
-      - Project.qmd
-      - href: free.qmd
-        text: Favorite Media
       - resume.qmd
+     # - href: about.qmd
+     #   text: About Me
+      - Project.qmd
+     # - href: free.qmd
+     #   text: Favorite Media
 
 format:
   html:

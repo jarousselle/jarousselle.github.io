@@ -16,6 +16,7 @@ Over the course of Spring quarter 2025, I have been collecting data to determine
 # Progress
 
 ### Initial Visualization
+
 Here is an initial visualization of the data to see if shoe type impacts my walking pace. From the graph, it appears that I have a slower walking pace when wearing Doc Martens than I do when wearing sneakers. This is expected because Doc Martens are less comfortable shoes. The boxplot below compares some of the central tendencies of the data like median, interquartile range, max, and min.
 
 ```{r}
@@ -50,12 +51,8 @@ plot <- ggplot(shoe, aes(x = Type_of_Shoe,
 ggplotly(plot)
 ```
 
-### Affective Visualization Draft
+### Affective Visualization 
 
-From this data, I am creating an affective visualization of shoe type and walking pace. I am doing this by drawing on my ipad and creating a plot. The x-axis shows walking pace, with the faster pace being closer to the finish line. Each shoe represents a data point for walking pace and the type of shoe I was wearing when that data was recorded. This is still a work in progress, but here is my draft.
+From this data, I am creating an affective visualization of shoe type and walking pace. I am doing this by drawing on my ipad and creating a plot. The x-axis shows walking pace, with the faster pace being closer to the finish line. Each shoe represents a data point for walking pace and the type of shoe I was wearing when that data was recorded.
 
-![](/draft.jpeg)
-
-# Final Project
-
-Coming soon!
+![](/Affective Visualization Final-1.jpg)

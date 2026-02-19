@@ -16,4 +16,6 @@ about:
       href: mailto:jarousselle@ucsb.edu
 ---
 
-Hello, my name is Jess Rousselle! Currently I am a second year Environmental Studies (B.S.) major at University of California, Santa Barbara. I love learning about the environment and am always looking for new ways to expand my knowledge! This summer I will be studying abroad in Sicily, Italy and learning all about the effects of climate change on the Mediterranean.
+Hello, my name is Jess Rousselle! Currently I am an Environmental Studies (B.S.) major at the University of California, Santa Barbara, expecting to graduate in June 2026. I love learning about the environment and am always looking for new ways to expand my knowledge!
+
+In order to create this website, I used RStudio and GitHub.
